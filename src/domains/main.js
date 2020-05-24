@@ -13,6 +13,7 @@ class MainDomain {
 	}
 
 	start() {
+		Core.utils.adjustAspectRatio();
         Core.utils.addSky('partly-cloudy');
         Core.utils.setSkyColor("#4488ff");
         Core.utils.addExitButton();
