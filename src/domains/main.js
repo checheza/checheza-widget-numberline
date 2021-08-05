@@ -121,7 +121,7 @@ class NumberlineSlider {
 		numberlineCanvas.width = numberlineCanvas.clientWidth;
 		numberlineCanvas.height = numberlineCanvas.clientHeight;
 
-		this.fontSize = numberlineCanvas.width * (35 / 1920);
+		this.fontSize = numberlineCanvas.width * (35 / 1420);
 
 		this.context = numberlineCanvas.getContext('2d');
 		this.color = '#4B2C2C';
